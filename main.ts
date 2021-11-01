@@ -15,7 +15,7 @@ input.onButtonPressed(Button.A, function () {
         pins.analogWritePin(AnalogPin.P0, 1023)
         basic.pause(200)
         pins.analogWritePin(AnalogPin.P0, 0)
-        basic.pause(60000)
+        basic.pause(200000)
     }
 })
 input.onButtonPressed(Button.B, function () {
